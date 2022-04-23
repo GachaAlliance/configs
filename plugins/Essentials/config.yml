@@ -946,34 +946,34 @@ protect:
     lava-flow: false
     water-flow: false
     water-bucket-flow: false
-    fire-spread: true
-    lava-fire-spread: true
-    lava-itemdamage: false
+    fire-spread: false
+    lava-fire-spread: false
+    lava-itemdamage: true
     flint-fire: false
-    lightning-fire-spread: true
+    lightning-fire-spread: false
     portal-creation: false
     tnt-explosion: false
     tnt-playerdamage: false
-    tnt-itemdamage: false
+    tnt-itemdamage: true
     tnt-minecart-explosion: false
     tnt-minecart-playerdamage: false
-    tnt-minecart-itemdamage: false
+    tnt-minecart-itemdamage: true
     fireball-explosion: false
     fireball-fire: false
     fireball-playerdamage: false
-    fireball-itemdamage: false
+    fireball-itemdamage: true
     witherskull-explosion: false
     witherskull-playerdamage: false
-    witherskull-itemdamage: false
+    witherskull-itemdamage: true
     wither-spawnexplosion: false
     wither-blockreplace: false
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-itemdamage: false
+    creeper-itemdamage: true
     creeper-blockdamage: false
     ender-crystal-explosion: false
-    enderdragon-blockdamage: true
-    enderman-pickup: false
+    enderdragon-blockdamage: false
+    enderman-pickup: true
     villager-death: false
     bed-explosion: false
     respawn-anchor-explosion: false
@@ -983,7 +983,7 @@ protect:
     # Prevents zombies from breaking down doors
     zombie-door-break: false
     # Prevents Ravagers from stealing blocks
-    ravager-thief: false
+    ravager-thief: true
     # Prevents sheep from turning grass to dirt
     sheep-eat-grass: false
     # Prevent certain transformations.
